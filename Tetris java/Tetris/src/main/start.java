@@ -1,6 +1,8 @@
 package main;
 
 
+import java.awt.Image;
+
 import javax.swing.*;
 
 
@@ -8,6 +10,8 @@ public class start {
 	public static void main(String[] args) {
 		//declaration + initialisation d'un variable window qui permet de faire des fenetre grace a JFrame
 		JFrame window = new JFrame("Tetris");
+
+		
 
 		//parametre de la fenetre
 

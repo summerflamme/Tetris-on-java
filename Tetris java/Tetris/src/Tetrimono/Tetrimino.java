@@ -204,7 +204,7 @@ public class Tetrimino {
 				b[3].y += Block.size;
 
 				autoDrop = 0;
-				PlayManager.score++;
+				PlayManager.currentScore++;
 			}
 
 			keyHandler.descend = false;
